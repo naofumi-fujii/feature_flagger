@@ -4,6 +4,16 @@ RSpec.describe FeatureFlagger do
   end
 
   it "does something useful" do
-    expect(false).to eq(true)
+    res = FeatureFlagger.feature active_if: true do
+      :hoge
+    end
+
+    expect(res).to eq(:hoge)
+
+    res = FeatureFlagger.feature active_if: false do
+      :hoge
+    end
+
+    expect(res).to eq(nil)
   end
 end
