@@ -2,12 +2,6 @@
 
 super simple feature flag manage gem
 
-```ruby
-FeatureFlagger.feature active_if: true do
-  puts :hoge
-end
-```
-
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -26,7 +20,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+FeatureFlagger.feature active_if: true do
+  puts :hoge
+end
+```
 
 ## Development
 
