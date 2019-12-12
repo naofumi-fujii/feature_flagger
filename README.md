@@ -1,8 +1,12 @@
 # FeatureFlagger
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/feature_flagger`. To experiment with that code, run `bin/console` for an interactive prompt.
+super simple feature flag manage gem
 
-TODO: Delete this and the text above, and describe your gem
+```ruby
+FeatureFlagger.feature active_if: true do
+  puts :hoge
+end
+```
 
 ## Installation
 
