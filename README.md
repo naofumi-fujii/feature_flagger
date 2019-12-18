@@ -1,4 +1,4 @@
-
+[![Build Status](https://travis-ci.com/naofumi-fujii/feature_flagger.svg?branch=master)](https://travis-ci.com/naofumi-fujii/feature_flagger)
 
 # FeatureFlagger
 
