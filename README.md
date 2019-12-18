@@ -1,3 +1,5 @@
+https://travis-ci.com/naofumi-fujii/feature_flagger.svg?branch=master
+
 # FeatureFlagger
 
 super simple feature flag manage gem
